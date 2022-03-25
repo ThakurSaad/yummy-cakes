@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+.main-heading, .main-sub-heading{
+  text-align: center;
+}
+.main-heading {
+  color: darkmagenta;
+  font-size: 3rem;
+  font-weight: 400;
+}
+.main-sub-heading {
+  color: #d46e6e;
+  font-size: 2rem;
+  font-weight: 100;
+}
