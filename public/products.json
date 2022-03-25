@@ -1,62 +1,62 @@
 [
     {
-        "id": "623e104237252b4e99f38f33",
+        "id": "1",
         "price": 455,
-        "name": "Simone Mcknight",
+        "name": "Chocolate mud cake",
         "picture": "./image/cakes-1.jpg"
     },
     {
-        "id": "623e10429b68d59edab1dc03",
+        "id": "2",
         "price": 100,
-        "name": "Danielle Miranda",
+        "name": "Baked lemon cheesecake",
         "picture": "./image/cakes-2.jpg"
     },
     {
-        "id": "623e1042cb167b6458f34e94",
+        "id": "3",
         "price": 102,
-        "name": "Allie Lamb",
+        "name": " Red velvet cupcakes",
         "picture": "./image/cakes-3.jpg"
     },
     {
-        "id": "623e10425040d21f948c094c",
+        "id": "4",
         "price": 198,
         "name": "Misty Berg",
         "picture": "./image/cakes-4.jpg"
     },
     {
-        "id": "623e104247b90323fe7ba01b",
+        "id": "5",
         "price": 179,
-        "name": "Mullins Irwin",
+        "name": "Chocolate birthday cake",
         "picture": "./image/cakes-5.jpg"
     },
     {
-        "id": "623e1042382d47926d069783",
+        "id": "6",
         "price": 216,
-        "name": "Shelia Franks",
+        "name": "Basic sponge cake",
         "picture": "./image/cakes-6.jpg"
     },
     {
-        "id": "623e104200bc9322bbe7979b",
+        "id": "7",
         "price": 327,
-        "name": "Araceli Fox",
+        "name": "Carrot and walnut cake",
         "picture": "./image/cakes-7.jpg"
     },
     {
-        "id": "623e10420c2a3f0ccd7747fe",
+        "id": "8",
         "price": 337,
-        "name": "Ophelia Richard",
+        "name": "Chocolate mud cupcakes",
         "picture": "./image/cakes-8.jpg"
     },
     {
-        "id": "623e1042453ac95a5006ed19",
+        "id": "9",
         "price": 260,
-        "name": "Patterson Justice",
+        "name": "Chocolate coconut cake",
         "picture": "./image/cakes-9.jpg"
     },
     {
-        "id": "623e10426dc9b76331a74d2e",
+        "id": "10",
         "price": 266,
-        "name": "Juana Benton",
+        "name": "Vanilla cupcakes",
         "picture": "./image/cakes-10.jpg"
     }
 ]
