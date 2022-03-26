@@ -12,7 +12,7 @@
   border-radius: 0.5rem;
 }
 .answer:hover {
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.596);
   color: white;
   transition: 0.2s;
 }
