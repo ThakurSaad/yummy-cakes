@@ -7,6 +7,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const AddedProduct = ({ product }) => {
   return (
     <div key={product?.id} className="addedProduct">
+      <img className="added-product-img" src={product.picture} alt="" />
       <p className="added-product-name">
         <small>{product?.name}</small>
         <button className="btn-close">
