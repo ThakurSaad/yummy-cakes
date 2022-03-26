@@ -22,12 +22,18 @@ const Shop = () => {
   // add to cart btn handler
   const addToCart = (id) => {
     const storedCart = products.find((product) => product.id === id);
-    const newCart = [...cart, storedCart];
-    setCart(newCart);
+    const exists = cart.find((product) => product.id === storedCart.id);
+    if (exists) {
+      return;
+    } else {
+      const newCart = [...cart, storedCart];
+      setCart(newCart);
+    }
   };
 
   // choose one for me btn handler
   const chooseForMe = () => {
+    // handle error for the empty cart
     if (cart.length === 0) {
       return;
     } else {
