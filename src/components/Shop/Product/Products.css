@@ -32,3 +32,11 @@ img {
     color: white;
     transition: .2s;
 }
+@media only screen and (max-width: 576px) { 
+  /* .product {
+    width: 150px;
+  }
+  img {
+    height: 100px;
+  } */
+}
