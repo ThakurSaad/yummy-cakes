@@ -33,11 +33,14 @@ const Shop = () => {
     } else if (cart.length === 0) {
       return;
     } else {
+      alert(
+        `Selection done!
+Santa says 🎅 "savor every last bit of this yummy cake" 🍴`
+      );
       const random = Math.floor(Math.random() * cart.length);
       const cartItem = cart[random];
       const newCart = [cartItem];
       setCart(newCart);
-      alert('Santa says 🎅 "savor every last bit of this yummy cake" 🍴');
     }
   };
 
