@@ -37,7 +37,7 @@ const Shop = () => {
       const cartItem = cart[random];
       const newCart = [cartItem];
       setCart(newCart);
-        <Chosen></Chosen>
+      alert('Santa says 🎅 "savor every last bit of this yummy cake" 🍴');
     }
   };
 
@@ -64,11 +64,11 @@ const Shop = () => {
 };
 
 const Chosen = () => {
-  return(
+  return (
     <div>
       <h1>done</h1>
     </div>
-  )
-}
+  );
+};
 
 export default Shop;
