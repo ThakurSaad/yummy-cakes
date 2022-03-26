@@ -28,25 +28,16 @@ const Shop = () => {
 
   // choose one for me btn handler
   const chooseForMe = () => {
-    /* const random = Math.floor(Math.random() * cart.length);
-    const cartItem = cart[random];
-    const newCart = [cartItem];
-    setCart(newCart); */
-    debugger;
-    console.log(cart);
     if (cart === [undefined]) {
       return;
-    } 
-    else if (cart.length === 0) {
+    } else if (cart.length === 0) {
       return;
-    }
-    else {
+    } else {
       const random = Math.floor(Math.random() * cart.length);
       const cartItem = cart[random];
       const newCart = [cartItem];
       setCart(newCart);
     }
-    // console.log(cart, random, cartItem, newCart);
   };
 
   return (
