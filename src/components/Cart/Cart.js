@@ -1,6 +1,7 @@
 import React from 'react';
 
-const Cart = () => {
+const Cart = ({cart}) => {
+    console.log(cart);
     return (
         <div className='cart'>
             <h3>Selected Cakes</h3>
