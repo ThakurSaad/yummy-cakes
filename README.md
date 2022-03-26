@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Yummy Cakes
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [live site link](https://yummy-cakes.netlify.app/).
 
 ## Available Scripts
 
