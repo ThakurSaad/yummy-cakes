@@ -28,9 +28,7 @@ const Shop = () => {
 
   // choose one for me btn handler
   const chooseForMe = () => {
-    if (cart === [undefined]) {
-      return;
-    } else if (cart.length === 0) {
+    if (cart.length === 0) {
       return;
     } else {
       alert(
