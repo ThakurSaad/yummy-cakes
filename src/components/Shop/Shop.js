@@ -63,12 +63,4 @@ const Shop = () => {
   );
 };
 
-const Chosen = () => {
-  return (
-    <div>
-      <h1>done</h1>
-    </div>
-  );
-};
-
 export default Shop;
