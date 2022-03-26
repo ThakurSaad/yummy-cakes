@@ -13,6 +13,12 @@ const Shop = () => {
       .then((data) => setProducts(data));
   }, []);
 
+  // choose again btn handler
+  const chooseAgain = () => {
+    const newCart = [];
+    setCart(newCart);
+  };
+
   // add to cart btn handler
   const addToCart = (id) => {
     const storedCart = products.find((product) => product.id === id);
@@ -22,11 +28,25 @@ const Shop = () => {
 
   // choose one for me btn handler
   const chooseForMe = () => {
-    const random = Math.floor(Math.random() * cart.length);
+    /* const random = Math.floor(Math.random() * cart.length);
     const cartItem = cart[random];
-    const newCart = [cartItem]
-    setCart(newCart);
-    console.log(cart, random, cartItem, newCart);
+    const newCart = [cartItem];
+    setCart(newCart); */
+    debugger;
+    console.log(cart);
+    if (cart === [undefined]) {
+      return;
+    } 
+    else if (cart.length === 0) {
+      return;
+    }
+    else {
+      const random = Math.floor(Math.random() * cart.length);
+      const cartItem = cart[random];
+      const newCart = [cartItem];
+      setCart(newCart);
+    }
+    // console.log(cart, random, cartItem, newCart);
   };
 
   return (
@@ -41,7 +61,11 @@ const Shop = () => {
         ))}
       </div>
       <div className="cart-container">
-        <Cart cart={cart} chooseForMe={chooseForMe}></Cart>
+        <Cart
+          cart={cart}
+          chooseForMe={chooseForMe}
+          chooseAgain={chooseAgain}
+        ></Cart>
       </div>
     </div>
   );

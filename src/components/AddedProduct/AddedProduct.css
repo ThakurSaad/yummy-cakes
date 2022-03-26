@@ -1,0 +1,13 @@
+.addedProduct {
+  display: flex;
+  align-items: center;
+}
+.added-product-name {
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+.btn-close {
+  border: none;
+  color: #d46e6e;
+  background-color: white;
+}
