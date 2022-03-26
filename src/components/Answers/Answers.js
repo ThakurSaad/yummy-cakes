@@ -21,7 +21,7 @@ const Answers = () => {
         </p>
       </div>
       <div className="answer">
-        <h4>Question : Difference between props and state</h4>
+        <h4>Question : What is the difference between props and state?</h4>
         <p>
           Javascript properties, in short it is called props. props are used to
           pass data from parent component to child component. we can send
