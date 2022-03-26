@@ -19,7 +19,15 @@ const Shop = () => {
     const newCart = [...cart, storedCart];
     setCart(newCart);
   };
-  // console.log("cart", cart);
+
+  // choose one for me btn handler
+  const chooseForMe = () => {
+    const random = Math.floor(Math.random() * cart.length);
+    const cartItem = cart[random];
+    const newCart = [cartItem]
+    setCart(newCart);
+    console.log(cart, random, cartItem, newCart);
+  };
 
   return (
     <div className="shop-container">
@@ -33,7 +41,7 @@ const Shop = () => {
         ))}
       </div>
       <div className="cart-container">
-        <Cart cart={cart}></Cart>
+        <Cart cart={cart} chooseForMe={chooseForMe}></Cart>
       </div>
     </div>
   );
