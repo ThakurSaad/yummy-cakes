@@ -12,7 +12,7 @@ const Answers = () => {
           tree (like DOM) with its advanced diff algorithm. It uses JSX, which
           is syntactical sugar, for rendering. Whenever an element is changed,
           react compares it with its virtual DOM & with the browser DOM and
-          re-renders where the change happened, not the whole DOM. React uses
+          re-renders where the change happened, does not re-render the whole DOM. React uses
           keys to do it. When a parent element is changed, react takes it that
           the child element is definitely changed. Then it re-renders the whole
           parent element. Cause, only changing the child element needs much more
